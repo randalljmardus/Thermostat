@@ -10,6 +10,8 @@
 		1545F89D1CECC20F00953685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545F89C1CECC20F00953685 /* AppDelegate.swift */; };
 		1545F89F1CECC20F00953685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1545F89E1CECC20F00953685 /* Assets.xcassets */; };
 		1545F8A21CECC20F00953685 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1545F8A01CECC20F00953685 /* MainMenu.xib */; };
+		1545F8AB1CECC2A700953685 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545F8A91CECC2A700953685 /* MainWindowController.swift */; };
+		1545F8AC1CECC2A700953685 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1545F8AA1CECC2A700953685 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		1545F89E1CECC20F00953685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1545F8A11CECC20F00953685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1545F8A31CECC20F00953685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1545F8A91CECC2A700953685 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
+		1545F8AA1CECC2A700953685 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindowController.xib; path = ../MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				1545F89C1CECC20F00953685 /* AppDelegate.swift */,
+				1545F8A91CECC2A700953685 /* MainWindowController.swift */,
+				1545F8AA1CECC2A700953685 /* MainWindowController.xib */,
 				1545F89E1CECC20F00953685 /* Assets.xcassets */,
 				1545F8A01CECC20F00953685 /* MainMenu.xib */,
 				1545F8A31CECC20F00953685 /* Info.plist */,
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1545F89F1CECC20F00953685 /* Assets.xcassets in Resources */,
+				1545F8AC1CECC2A700953685 /* MainWindowController.xib in Resources */,
 				1545F8A21CECC20F00953685 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1545F8AB1CECC2A700953685 /* MainWindowController.swift in Sources */,
 				1545F89D1CECC20F00953685 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
