@@ -15,6 +15,7 @@ class MainWindowController: NSWindowController {
     }
     
     dynamic var temperature = 68
+    dynamic var isOn = true
     
     override func windowDidLoad() {
         super.windowDidLoad()
